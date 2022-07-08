@@ -7,11 +7,11 @@ def main():
     return "Welcome to all!"
 
 @app.route('/iiht')
-def hello():
+def iiht():
     return 'Welcome to IIHT'
     
 @app.route('/duratech')
-def hello():
+def dura():
     return 'Welcome to Duratech Solutions, Coimbatore'
 
 if __name__ == "__main__":
